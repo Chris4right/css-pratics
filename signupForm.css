@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gen-body{
+    background-color: blueviolet;
+}
+
+.in-body{
+    padding: 30px;
+    height: 100vh;
+}
+
+form{
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 7px;
+    margin: 0 auto ;
+}
+
+h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.blue{
+    background-image: linear-gradient(to right, rgb(3, 3, 102), blue);
+    color: #fff;
+}
+
+.size{
+    width: 49%;
+    margin-bottom: 7px;
+}
+
+
+.blue:hover{
+    background-image: linear-gradient(to right, blue, rgb(3, 3, 102));
+   
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+    transition: all .7s linear;
+}
+input:focus{
+    outline: none;
+    border-color:rgb(4, 4, 163) ;
+}

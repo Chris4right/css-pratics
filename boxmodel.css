@@ -1,0 +1,32 @@
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 30px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    border: 20px solid green;
+}
+.box3{
+    background-color: orange;
+    border:7px dotted green;
+}
+.box4{
+    background-color:purple ;
+    border-right: 7px dashed blue;
+}
+.box5{
+    background-color: yellow;
+    border: 7px;
+    border-radius: 10px;
+}
+.box6{
+    background-color: lime;
+    border: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+}

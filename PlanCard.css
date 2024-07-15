@@ -1,0 +1,35 @@
+.PlanCard{
+    background-color: #011812;
+    width:300px;
+    padding:40px;
+    border:5px solid #37f89d;
+    border-radius: 20px;
+}
+
+.topic{
+    color: #fff;
+}
+
+.time{
+    color: #37f89d;
+}
+
+.features{
+    color:#fff ;
+}
+
+.summit{
+    color: #37f89d;
+    text-align: center;
+    border: 3px solid #37f89d;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.summit:hover{
+    background-color: #0d9153;
+}
